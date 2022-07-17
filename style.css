@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2');
+*{
+    background-color: rgb(157, 173, 148);
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    font-weight: 800;
+}
+
+.navbar{
+    background-color: black;
+
+}
+.navbar a{
+    color:#fff;
+    opacity: 0.9;
+}
+
+.navbar a:hover{
+    color:#fff;
+    opacity: 1;
+}
+.menu{
+    display: flex;
+    padding: 5px 50px;
+}
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    gap: 15px;
+    
+}
+
+.btnNav{
+    display: none;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+.btnNav i {
+    color:#fff;
+    font-size: 27px;
+}
+/*Rodape*/
+.footer{
+    height: 150px;
+    background-color: rgb(157, 173, 148) ;
+}
+/*FIM do Rodape*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin:2rem 0rem;
+}
+main h5{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+.carousel{
+    width: 85%;
+    height: 24rem;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.carousel img {
+    width: 100%;
+    border-radius: 10px;
+
+}
+.viagensVenda{
+    display: flex;
+    width: 70%;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 990px){
+    .btnNav{
+        display: block;
+    }
+}
+
+.links{
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+@media(max-width: 900x){
+    .carousel{
+        height: auto;
+    }
+
+}
+@media(max-width: 861px){
+    .carrosVenda{
+        width: 95%;
+        gap: 20p;
+    }
+
+}
+@media(max-width: 400x){
+    .menu{
+        padding: 5px 20px;
+    }
+}
